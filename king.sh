@@ -11,14 +11,14 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 menu() {
 
-printf " [01] Instagram                        [09] Origin                             [17] Gitlab\n"
-printf " [02] Facebook                         [10] Steam                              [18] Pinterest\n"
-printf " [03] Snapchat                         [11] Yahoo                              [19] Custom\n"
-printf " [04] Twitter                          [12] Linkedin                           [20] Exit\n"
-printf " [05] Github                           [13] Protonmail\n"
-printf " [06] Google                           [14] Wordpress\n"
-printf " [07] Spotify                          [15] Microsoft\n"
-printf " [08] Netflix                          [16] InstaFollowers\n"
+printf " [01] Instagram      [09] Origin            [17] Gitlab\n"
+printf " [02] Facebook       [10] Steam             [18] Pinterest\n"
+printf " [03] Snapchat       [11] Yahoo             [19] Custom\n"
+printf " [04] Twitter        [12] Linkedin          [20] Exit\n"
+printf " [05] Github         [13] Protonmail\n"
+printf " [06] Google         [14] Wordpress\n"
+printf " [07] Spotify        [15] Microsoft\n"
+printf " [08] Netflix        [16] InstaFollowers\n"
 read -p $' Choose an option: ' option
 
 if [[ $option == 1 || $option == 01 ]]; then
@@ -130,29 +130,12 @@ fi
 
 banner() {
 printf "                                                                                      
-   SSSSSSSSSSSSSSS hhhhhhh                                 iiii   jjjj                   
- SS:::::::::::::::Sh:::::h                                i::::i j::::j                  
-S:::::SSSSSS::::::Sh:::::h                                 iiii   jjjj                   
-S:::::S     SSSSSSSh:::::h                                                               
-S:::::S             h::::h hhhhh      rrrrr   rrrrrrrrr  iiiiiiijjjjjjj  aaaaaaaaaaaaa   
-S:::::S             h::::hh:::::hhh   r::::rrr:::::::::r i:::::ij:::::j  a::::::::::::a  
- S::::SSSS          h::::::::::::::hh r:::::::::::::::::r i::::i j::::j  aaaaaaaaa:::::a 
-  SS::::::SSSSS     h:::::::hhh::::::hrr::::::rrrrr::::::ri::::i j::::j           a::::a 
-    SSS::::::::SS   h::::::h   h::::::hr:::::r     r:::::ri::::i j::::j    aaaaaaa:::::a 
-       SSSSSS::::S  h:::::h     h:::::hr:::::r     rrrrrrri::::i j::::j  aa::::::::::::a 
-            S:::::S h:::::h     h:::::hr:::::r            i::::i j::::j a::::aaaa::::::a 
-            S:::::S h:::::h     h:::::hr:::::r            i::::i j::::ja::::a    a:::::a 
-SSSSSSS     S:::::S h:::::h     h:::::hr:::::r           i::::::ij::::ja::::a    a:::::a 
-S::::::SSSSSS:::::S h:::::h     h:::::hr:::::r           i::::::ij::::ja:::::aaaa::::::a 
-S:::::::::::::::SS  h:::::h     h:::::hr:::::r           i::::::ij::::j a::::::::::aa:::a
- SSSSSSSSSSSSSSS    hhhhhhh     hhhhhhhrrrrrrr           iiiiiiiij::::j  aaaaaaaaaa  aaaa
-                                                                 j::::j                  
-                                                       jjjj      j::::j                  
-                                                      j::::jj   j:::::j                  
-                                                      j::::::jjj::::::j                  
-                                                       jj::::::::::::j                   
-                                                         jjj::::::jjj                    
-                                                            jjjjjj    \n"
+ .##..##..######..##..##...####..
+.##.##.....##....###.##..##.....
+.####......##....##.###..##.###.
+.##.##.....##....##..##..##..##.
+.##..##..######..##..##...####..
+................................   \n"
 printf "                        .:.:. coded by:  @Sanskar_Chaudhary .:.:.      \n"
 printf "                   Disclaimer: Developers assume no liability and are not  \n "
 printf "                  responsible for any misuse or damage caused by Project  \n"
