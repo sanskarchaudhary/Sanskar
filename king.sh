@@ -136,9 +136,9 @@ printf "
 .##.##.....##....##..##..##..##.
 .##..##..######..##..##...####..
 ................................   \n"
-printf "                        .:.:. coded by:  @Sanskar_Chaudhary .:.:.      \n"
-printf "                   Disclaimer: Developers assume no liability and are not  \n "
-printf "                  responsible for any misuse or damage caused by Project  \n"
+printf "   .:.:. coded by:  @Sanskar_Chaudhary .:.:.   \n"
+printf "Disclaimer: Developers assume no liability and are not  \n "
+printf "responsible for any misuse or damage caused by Project  \n"
 }
 
 createpage() {
